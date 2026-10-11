@@ -9,7 +9,7 @@ const AI_API_URL = "http://127.0.0.1:8000/predict";
 const HISTORY_API_URL = "http://localhost:8080/api/recognitions";
 
 const CONFIDENCE_THRESHOLD = 35;
-const HISTORY_LENGTH = 7;
+const HISTORY_LENGTH = 5;
 const PREDICTION_INTERVAL = 250;
 
 export default function Webcam() {
