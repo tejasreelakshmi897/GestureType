@@ -5,9 +5,8 @@ const WASM_URL =
   "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@latest/wasm";
 
 const MODEL_URL = "/hand_landmarker.task";
-const AI_API_URL = "http://127.0.0.1:8000/predict";
-const HISTORY_API_URL = "http://localhost:8080/api/recognitions";
-
+const AI_API_URL = "https://gesturetype-ai-service.onrender.com/predict";
+const HISTORY_API_URL = "https://gesturetype-backend.onrender.com/api/recognitions";
 const CONFIDENCE_THRESHOLD = 35;
 const HISTORY_LENGTH = 5;
 const PREDICTION_INTERVAL = 250;
